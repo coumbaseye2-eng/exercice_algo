@@ -1,0 +1,7 @@
+import 'dart:io';
+
+void main(){
+  for(int i = 1; i <= 50;i++){
+    print("Nombre = $i");
+  }
+}
