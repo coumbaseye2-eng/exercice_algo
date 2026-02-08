@@ -11,7 +11,7 @@ void main(){
   String saisiAnnee = stdin.readLineSync()!;
   int anneeNaiss = int.parse(saisiAnnee);
 
-  int anneePresent = 2026;
+  int anneePresent = DateTime.now().year;
   int old = anneePresent - anneeNaiss;
 
   print("Bienvenue $nom $prenom,");

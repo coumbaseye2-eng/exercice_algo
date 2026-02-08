@@ -7,7 +7,7 @@ void main(){
   int somme = 0;
   
   for (int i = 1; i <= n; i++){
-    somme = somme+1;
+    somme = somme+i;
   }
   print("La somme des entiers de 1 à $n est : $somme");
 }

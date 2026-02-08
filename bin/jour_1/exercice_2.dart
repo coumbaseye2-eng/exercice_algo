@@ -16,4 +16,5 @@ void main(){
   print("Somme = $somme");
   print("Différence  = $difference");
   print("produit = $produit");
+  print("Quotient = $quotient");
 }
