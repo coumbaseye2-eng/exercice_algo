@@ -18,7 +18,7 @@ void main() {
     int proposition = int.parse(saisie);
 
     if (proposition == nombreSecret) {
-      print("FÉLICITATIONS ! Tu as trouvé le nombre $nombreSecret en $i essais ");
+      print("FÉLICITATIONS ! Tu as trouvé le nombre $nombreSecret en $i essais,t'es un géni ");
       aGagne = true;
       break;
     } else if (proposition < nombreSecret) {

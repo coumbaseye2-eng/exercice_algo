@@ -1,4 +1,6 @@
 import 'dart:io';
+//Demande une phrase à l'utilisateur. Compte et affiche le nombre de voyelles,
+// de consonnes et d'espaces.
 
 void main(){
   stdout.write("Entrez une phrase : ");
@@ -9,17 +11,18 @@ void main(){
   int espaces = 0;
 
   String listeVoyelles = "aeiouyàâéèêëîïôûùÿ";
+  String listeConsonnes = "bcdfghjklmnpqrstuvwxz";
   for (int i = 0; i < phrase.length; i++){
     String caractere = phrase[i];
     if (caractere == " ") {
       espaces++;
     }else if (listeVoyelles.contains(caractere)) {
       voyelles++;
-    }else if (RegExp(r'[a-zà-ÿ]').hasMatch(caractere)) {
+    }else if (listeConsonnes.contains(caractere)) {
       consonnes++;
     }
   }
-  print("Voyelles  : $voyelles");
-  print("Consonnes : $consonnes");
-  print("Espaces   : $espaces");
+  print("Voyelles  = $voyelles");
+  print("Consonnes = $consonnes");
+  print("Espaces   = $espaces");
 }
