@@ -27,7 +27,6 @@ void main() {
       print("C'est trop GRAND ! ");
     }
   }
-
   if (!aGagne) {
     print("Dommage ! Tu as épuisé tes $tentativesMax essais.");
     print("Le nombre secret était : $nombreSecret. ");

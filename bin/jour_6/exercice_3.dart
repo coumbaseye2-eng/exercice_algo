@@ -11,7 +11,7 @@ void main(){
   int espaces = 0;
 
   String listeVoyelles = "aeiouyàâéèêëîïôûùÿ";
-  String listeConsonnes = "bcdfghjklmnpqrstuvwxz";
+  String listeConsonnes = "bcdfghjklmnpqrstvwxz";
   for (int i = 0; i < phrase.length; i++){
     String caractere = phrase[i];
     if (caractere == " ") {
